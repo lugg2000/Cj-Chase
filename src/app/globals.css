@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --crimson: #800020;
+  --crimson-hero: rgba(128,0,32,0.62);
+  --crimson-dark: #5c0018;
+  --crimson-light: #9a1030;
+  --white: #ffffff;
+  --offwhite: #f7f7f7;
+  --lgrey: #efefef;
+  --mgrey: #dedede;
+  --dgrey: #555555;  /* #555 on white = 7.4:1 ✓ */
+  --text: #242424;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--text);
+  background: var(--white);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* ── Focus styles — visible keyboard ring on all interactive elements ── */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--crimson);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ── Skip to main content link (hidden until focused) ── */
+.skip-link {
+  position: absolute;
+  top: -999px;
+  left: 0;
+  background: var(--crimson);
+  color: #fff;
+  padding: 12px 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  z-index: 9999;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* ── Reduce motion for users who prefer it ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
