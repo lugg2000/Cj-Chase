@@ -53,8 +53,8 @@ export default function HomePage() {
           eyebrow="Strategic Data & AI Leadership · Programme Delivery · Business Transformation"
           title="Helping organisations turn data into their most powerful asset"
           subtitle="20+ years guiding businesses through transformative data journeys — from building the foundations to leading enterprise AI delivery. Whatever stage you're at, I can help you take the next step."
-          minHeight={480}
-          bgImage="/images/shutterstock_425727901_v2.jpg"
+          minHeight={260}
+          bgImage="/images/shutterstock_678316639_v2.jpg"
         />
 
         {/* Stats bar */}

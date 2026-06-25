@@ -22,7 +22,8 @@ export default function Hero({ eyebrow, title, subtitle, minHeight = 420, bgImag
           inset: 0,
           backgroundImage: `url('${bgImage}')`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center 30%',
+          backgroundRepeat: 'no-repeat',
           filter: 'grayscale(30%) brightness(0.6)'
         }} />
       ) : (
@@ -43,8 +44,12 @@ export default function Hero({ eyebrow, title, subtitle, minHeight = 420, bgImag
       <div style={{
         position: 'relative',
         zIndex: 2,
-        padding: '64px 40px',
-        maxWidth: 860,
+        width: '100%',
+        padding: '64px 24px',
+      }}>
+      <div style={{
+        maxWidth: 1100,
+        margin: '0 auto',
         color: '#fff'
       }}>
         {eyebrow && (
@@ -89,6 +94,7 @@ export default function Hero({ eyebrow, title, subtitle, minHeight = 420, bgImag
             </p>
           </>
         )}
+      </div>
       </div>
     </div>
   );

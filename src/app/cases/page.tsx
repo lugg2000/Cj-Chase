@@ -57,7 +57,7 @@ export default function CasesPage() {
           title="Results at every scale"
           subtitle="From saving one person a day's work a month to delivering $62M in savings at a global enterprise — every engagement gets the same quality of thinking."
           minHeight={300}
-          bgImage="/images/shutterstock_425727901_v2.jpg"
+          bgImage="/images/shutterstock_678316639_v2.jpg"
         />
 
         <section style={{ padding: '72px 24px' }}>

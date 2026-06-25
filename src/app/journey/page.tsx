@@ -97,7 +97,7 @@ export default function JourneyPage() {
           title="The data journey every organisation is on"
           subtitle="Understanding where you are — honestly — is the first step to moving forward. Most organisations are at a different stage in different departments. The journey is not a single line."
           minHeight={320}
-          bgImage="/images/shutterstock_425727901_v2.jpg"
+          bgImage="/images/shutterstock_678316639_v2.jpg"
         />
 
         <section style={{ padding: '72px 24px' }}>

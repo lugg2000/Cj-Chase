@@ -94,7 +94,7 @@ export default function ThinkingPage() {
           title="Thinking on data, AI and business"
           subtitle="Over 20 years, a consistent thread runs through everything written here: data must be purposeful, governed, and connected to business strategy — not collected for its own sake or deployed without the right foundations."
           minHeight={280}
-          bgImage="/images/shutterstock_425727901_v2.jpg"
+          bgImage="/images/shutterstock_678316639_v2.jpg"
         />
 
         <section style={{ padding: '72px 24px' }}>

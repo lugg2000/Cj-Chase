@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const testimonials = [
   {
-    quote: 'I was lucky enough to find Mark for our interim Project Manager (director) role, and he was so good we kept him for 2 years. He rapidly gained the trust of internal customers, demonstrated his value, immediately grasped the tricky cultural nuances of a globally-distributed 100k-person organisation, and delivered excellent results with humility, professionalism, and good humour.',
+    quote: 'I was lucky enough to find Mark for our interim Project Manager (director) role, and he was so good we kept him for 2 years. He rapidly gained the trust of internal customers, immediately grasped the tricky cultural nuances of a globally-distributed 100k-person organisation, and delivered excellent results with humility, professionalism, and good humour.',
     name: 'Tristram Smith',
     title: 'Product Delivery & Org Transformation — AstraZeneca',
   },
@@ -21,25 +21,24 @@ const testimonials = [
     title: 'Commercial Strategy Leader — AstraZeneca',
   },
   {
+    quote: 'I enjoyed working with Mark for about three years as we scaled the Consentric product and successfully implemented it with several enterprise customers. As the delivery lead, Mark excelled in collaborating with customer teams to establish a shared implementation plan, ensuring all parties were aligned on requirements at each phase. His ability to navigate conversations with professionalism and transparency made a significant difference in our partnerships with clients.',
+    name: 'Joe Riley',
+    title: 'Digital Journey Manager — Consentric',
+  },
+  {
     quote: 'Working with Mark was a real pleasure. His energy, enthusiasm and experience was invaluable in keeping our projects on track in a challenging environment. Approachable, super-organised and also a data geek — he was the perfect fit for the job.',
     name: 'Steve Adams',
-    title: 'Senior Project Manager — The Met Office',
+    title: 'Senior Project Manager — Met Office',
   },
   {
-    quote: 'I enjoyed working with Mark for about three years as we scaled the Consentric product. As the delivery lead, Mark excelled in collaboration, building relationships both internally and with clients. He has a good eye for process and structure, and a talent for simplifying the complex. A pleasure to work with.',
-    name: 'Pete Howells',
-    title: 'Product Owner — Consentric',
+    quote: "I recruited Mark to project manage the implementation of our cloud based software into a large organisation split into different operating companies. Mark rose to the challenge and was my safe pair of hands — not only managing our customer's operating companies, but also many 3rd party organisations which formed part of the overall implementation. His technical and commercial knowledge stand him in great stead, as does his integrity.",
+    name: 'Richard Nichols',
+    title: 'Director — Novus Talent',
   },
   {
-    quote: 'Mark has an exceptional ability to make complex data accessible and actionable. Working with him, I noticed how he connects analytical thinking with real-world strategy. He doesn\'t just process data — he turns it into a compass for business decisions. His collaborative style made our complex project feel manageable and even exciting.',
-    name: 'Stuart Bagnell',
-    title: 'Senior Director — AstraZeneca',
-  },
-  {
-    quote: 'Mark is one of those rare individuals who can hold the full complexity of a programme in his head while still being grounded enough to ask the obvious question nobody else dared to ask. He had my trust from week one.',
-    name: 'Senior Stakeholder',
-    title: 'Global Pharma Programme — name withheld',
-    anon: true,
+    quote: 'Mark has been instrumental in developing and refining our business management information systems and outputs. His creative and innovative approach has been refreshing to work with and has yielded great results for our business. We now have insightful and meaningful MI to support the effective management of our business.',
+    name: 'Louise Billingham',
+    title: 'Global Customer Operations & Transformation Director',
   },
 ];
 
@@ -53,7 +52,7 @@ export default function TestimonialsPage() {
           title="What people say"
           subtitle="Testimonials from enterprise programme leadership, product delivery, and data transformation engagements."
           minHeight={260}
-          bgImage="/images/shutterstock_425727901_v2.jpg"
+          bgImage="/images/shutterstock_678316639_v2.jpg"
         />
 
         <section style={{ padding: '72px 24px' }}>

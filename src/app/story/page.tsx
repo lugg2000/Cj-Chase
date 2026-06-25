@@ -38,7 +38,7 @@ export default function StoryPage() {
           eyebrow="About Mark Lugg — 20 years in the making"
           title="Strategic Data & AI Leader · Founder, CJ Chase Business Solutions"
           minHeight={260}
-          bgImage="/images/shutterstock_425727901_v2.jpg"
+          bgImage="/images/shutterstock_678316639_v2.jpg"
         />
 
         <section style={{ padding: '72px 24px' }}>
